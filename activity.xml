@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:background="##000000"
     >
-<!-- 11/16여기까지 수정 -->
+<!-- 11/16 change something 
+	I changed width and height, and background color : white  -->
     <LinearLayout
         android:oriendtation="horizontal"
         android:layout_width="fill_parent"
