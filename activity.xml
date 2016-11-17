@@ -7,7 +7,20 @@
     android:background="##000000"
     >
 <!-- 11/16 change -->
-
+    
+    <TextView 
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    
+<!-- 11/17 change -->
+    
+<!--
     <LinearLayout
         android:oriendtation="horizontal"
         android:layout_width="fill_parent"
@@ -43,4 +56,5 @@
             android:layout_weight="1"
             />
     </LinearLayout>
+-->
 </LinearLayout>
