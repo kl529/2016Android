@@ -36,14 +36,6 @@ public class MainActivity extends Activity {
 
         long now = System.currentTimeMillis();
 
-        final Date date = new Date(now);
-
-        final SimpleDateFormat nowYear = new SimpleDateFormat("yyyy",Locale.KOREA);
-        final SimpleDateFormat nowMonth = new SimpleDateFormat("MM",Locale.KOREA);
-        final SimpleDateFormat nowDay = new SimpleDateFormat("dd",Locale.KOREA);
-
-        tvDate.setText(nowYear.format(date) + "/" + nowMonth.format(date));
-
     }
 
 }
