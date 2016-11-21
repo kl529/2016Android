@@ -35,6 +35,8 @@ public class MainActivity extends Activity {
         tvDate = (TextView)findViewById(android.R.id.tv_date);
 
         long now = System.currentTimeMillis();
+        
+        final Date date = new Date(now);
 
     }
 
