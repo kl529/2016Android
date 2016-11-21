@@ -6,7 +6,6 @@
     android:orientation="vertical"
     android:background="##000000"
     >
-<!-- 11/16 change -->
     
     <TextView 
         android:id="@+id/tv_date"
@@ -16,9 +15,8 @@
         android:gravity="center_vertical"
         android:paddingLeft="10dp"
         android:textColor="#ffffff"
-        android:textSize="20sp" />
-    
-<!-- 11/17 change -->
+        android:textSize="20sp"
+        />
     
     <GridView
         android:layout_marginTop="10dp"
@@ -26,11 +24,8 @@
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:numColumns="7"
-             
         >
         
     </GridView>
 
 </LinearLayout>
-    
-<!-- 11/18 & 11/19 change -->
