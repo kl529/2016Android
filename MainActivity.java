@@ -7,7 +7,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import android.*;
 import android.app.Activity;
 import android.content.Context;
 import android.view.LayoutInflater;
