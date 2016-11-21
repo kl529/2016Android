@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(android.R.layout.activity_main);
+        setContentView(android.activity_main);
 
         tvDate = (TextView)findViewById(android.R.id.tv_date);
 
