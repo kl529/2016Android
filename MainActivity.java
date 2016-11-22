@@ -1,26 +1,24 @@
 package com.example.kl529.calendar;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import android.app.Activity;
-import android.content.Context;
-import android.view.LayoutInflater;
-import android.view.View.OnClickListener;
-import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.TextView;
-import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
+
+    import java.util.ArrayList;
+    import java.util.Calendar;
+    import java.util.Date;
+    import java.util.List;
+    import java.util.Locale;
+
+    import android.app.Activity;
+    import android.content.Context;
+    import android.os.Bundle;
+    import android.view.LayoutInflater;
+    import android.view.View;
+    import android.view.View.OnClickListener;
+    import android.view.ViewGroup;
+    import android.widget.BaseAdapter;
+    import android.widget.GridView;
+    import android.widget.TextView;
+
 
 public class MainActivity extends Activity {
 
