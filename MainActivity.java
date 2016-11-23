@@ -38,6 +38,7 @@ public class MainActivity extends Activity {
 
         final SimpleDateFormat nowYear = new SimpleDateFormat("yyyy",Locale.KOREA);
         final SimpleDateFormat nowMonth = new SimpleDateFormat("MM",Locale.KOREA);
+        final SimpleDateFormat nowDate = new SimpleDateFormat("DD",Locale.KOREA);
         
     }
 
