@@ -28,6 +28,11 @@ public class MainActivity extends Activity {
     // GridView Adapter
     private GridAdapter gridAdapter;
     // Save List
+    private ArrayList<String> dayList;
+    //GridView
+    private GridView gridView;
+    //Calender variable
+    private Calender mCal;
     
     
 
