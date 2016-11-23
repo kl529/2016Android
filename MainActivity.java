@@ -23,7 +23,13 @@ import java.text.SimpleDateFormat;
 public class MainActivity extends Activity {
 
     private TextView tvDate;
-//    연,월 레이아웃 텍스트 뷰
+    //    연,월 레이아웃 텍스트 뷰
+    private TextView tvDate;
+    // GridView Adapter
+    private GridAdapter gridAdapter;
+    // Save List
+    
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
