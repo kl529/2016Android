@@ -38,7 +38,9 @@ public class MainActivity extends Activity {
 
         final SimpleDateFormat nowYear = new SimpleDateFormat("yyyy",Locale.KOREA);
         final SimpleDateFormat nowMonth = new SimpleDateFormat("MM",Locale.KOREA);
-        final SimpleDateFormat nowDate = new SimpleDateFormat("DD",Locale.KOREA);
+        final SimpleDateFormat nowDay = new SimpleDateFormat("DD",Locale.KOREA);
+        
+        tvDate.setText(nowYear.format(date) + "." + nowMonth.format(date));
         
     }
 
