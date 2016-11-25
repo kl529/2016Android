@@ -63,6 +63,6 @@ public class MainActivity extends Activity {
         dayList.add("FRI");
         dayList.add("SAT");
         mCal = Calendar.getInstance();
-    }
+    }//-change first
 
 }
