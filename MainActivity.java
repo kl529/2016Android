@@ -67,6 +67,11 @@ public class MainActivity extends Activity {
         mCal.set(Integer.parseInt(nowYear.format(date), Integer.parseInt(nowMonth.format(date)) -1, Integer.parseInt(nowDay.format(date)));
                  
         int dayNum = mCal.get(Calendar.DAY_OF_WEEK);
+                 
+        for (int i; i <dayNum; i++)
+                 {
+                     dayList.add("");
+                 }
     }//-change first-I make new branch,and I change return.
 //Again.
 }
