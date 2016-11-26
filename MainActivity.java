@@ -72,6 +72,9 @@ public class MainActivity extends Activity {
                  {
                      dayList.add("");
                  }
+        
+        setCalendarDate(mCal.get(Calendar.MONTH) + 1);
+               
     }//-change first-I make new branch,and I change return.
 //Again.
 }
