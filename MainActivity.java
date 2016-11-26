@@ -74,6 +74,8 @@ public class MainActivity extends Activity {
                  }
         
         setCalendarDate(mCal.get(Calendar.MONTH) + 1);
+                 
+        gridAdapter = new GridAdapter(getApplicationContext(), dayList);
                
     }//-change first-I make new branch,and I change return.
 //Again.
