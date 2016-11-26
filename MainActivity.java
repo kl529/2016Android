@@ -63,6 +63,9 @@ public class MainActivity extends Activity {
         dayList.add("FRI");
         dayList.add("SAT");
         mCal = Calendar.getInstance();
+        
+        mCal.set(Integer.parseInt(nowYear.format(date), Integer.parseInt(nowMonth.format(date)) -1, Integer.parseInt(nowDay.format(date)));
+                 
     }//-change first-I make new branch,and I change return.
 //Again.
 }
