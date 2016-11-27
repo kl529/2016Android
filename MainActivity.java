@@ -81,5 +81,10 @@ public class MainActivity extends Activity {
         gridView.setAdapter(gridAdapter);
                
     }//-change first-I make new branch,and I change return.
+                 
+    private void setCalendarDate(int month)
+    {
+        mCal.set(Calendar.MONTH, month-1);
+    }
 //Again.
 }
