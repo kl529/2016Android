@@ -92,5 +92,12 @@ public class MainActivity extends Activity {
             dayList.add("" + (i+1));
         }
     }
+    
+    private class GridAdapter extends BaseAdapter {
+        
+        private final List<String> list;
+        
+        private final LayoutInflater inflater;
+    }
 //Again.
 }
