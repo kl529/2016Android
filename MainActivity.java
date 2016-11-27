@@ -98,6 +98,13 @@ public class MainActivity extends Activity {
         private final List<String> list;
         
         private final Layoutlnflater inflater;
+        
+        public GridAdapter (Context context, List<String> list)
+        {
+            this.list = list;
+            
+            this.inflater = (Layoutlnflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        }
     }
 //Again.
 }
