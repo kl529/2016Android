@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
         
         private final List<String> list;
         
-        private final LayoutInflater inflater;
+        private final Layoutlnflater inflater;
     }
 //Again.
 }
