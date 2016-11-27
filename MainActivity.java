@@ -84,7 +84,13 @@ public class MainActivity extends Activity {
                  
     private void setCalendarDate(int month)
     {
+        int i;
         mCal.set(Calendar.MONTH, month-1);
+       
+        for (i=0; i<mCal.getActualMaximum(Calendar.DAY_OF_MONTH); i++)
+        {
+            dayList.add("" + (i+1));
+        }
     }
 //Again.
 }
