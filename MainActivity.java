@@ -135,8 +135,7 @@ public class MainActivity extends Activity {
         }
         
         @Override
-        public String getItem(int position)
-        {
+        public String getItem(int position){
             return list.get(position);
         }
           
