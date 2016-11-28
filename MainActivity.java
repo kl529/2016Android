@@ -99,6 +99,15 @@ public class MainActivity extends Activity {
         firstDay = date.getDay();
         
         toDays = 31;
+        for (int i = 29; i<=32; i++)
+        {
+            date.setDate(i);
+            if (date.getDate() == 1)
+            {
+                totDays = i -1;
+                break;
+            }
+        }
         
     }
     
