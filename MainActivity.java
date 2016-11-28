@@ -133,6 +133,12 @@ public class MainActivity extends Activity {
         public void setCount(int c){
             this.count = c;
         }
+        
+        @Override
+        public String getItem(int position)
+        {
+            return list.get(position);
+        }
           
     }
 //Again.
