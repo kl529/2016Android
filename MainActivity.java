@@ -124,10 +124,16 @@ public class MainActivity extends Activity {
             this.inflater = (Layoutlnflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
         
-        @Ovrride
+        @Override
         public int getCount(){
             return list.size();
         }
+        
+        @Override
+        public void setCount(int c){
+            this.count = c;
+        }
+          
     }
 //Again.
 }
