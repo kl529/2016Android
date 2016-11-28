@@ -91,6 +91,11 @@ public class MainActivity extends Activity {
         {
             dayList.add("" + (i+1));
         }
+        //------------------------
+        Date date = new Date();
+        date.setYear(year);
+        date.setMonth(month);
+        date.setDate(1);
     }
     
     private class GridAdapter extends BaseAdapter {
