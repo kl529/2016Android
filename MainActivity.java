@@ -96,6 +96,10 @@ public class MainActivity extends Activity {
         date.setYear(year);
         date.setMonth(month);
         date.setDate(1);
+        firstDay = date.getDay();
+        
+        toDays = 31;
+        
     }
     
     private class GridAdapter extends BaseAdapter {
