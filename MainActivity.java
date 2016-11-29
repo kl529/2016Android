@@ -157,6 +157,7 @@ public class MainActivity extends Activity {
                     convertView.setTag(holder);
                 }
             }
+        }
         private class ViewHolder{
             TextView tvItemGridView;
         }
