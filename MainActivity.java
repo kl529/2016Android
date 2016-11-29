@@ -152,7 +152,8 @@ public class MainActivity extends Activity {
                     holder = new ViewHolder();
                     
                     holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
-                    convertView.setTag;
+                    
+                    convertView.setTag(holder);
                 }
             }
         private class ViewHolder{
