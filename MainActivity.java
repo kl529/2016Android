@@ -156,6 +156,7 @@ public class MainActivity extends Activity {
                     
                     convertView.setTag(holder);
                 } else {
+                    holder;
                 } 
             }
         }
