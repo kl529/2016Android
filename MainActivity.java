@@ -148,7 +148,7 @@ public class MainActivity extends Activity {
             public View getView(int position, View convertView, ViewGroup parent){//getview
                 ViewHolder holder = null; //create ViewHolder
                 if (convertView == null){
-                    convertView = inflater.inflate(R.layout.item_calender_gridview, parent, false);
+                    convertView = inflater.inflate(R.layout.item_calendar_gridview, parent, false);
                 }
             }
         private class ViewHolder{
