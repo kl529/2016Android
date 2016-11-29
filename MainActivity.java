@@ -157,7 +157,7 @@ public class MainActivity extends Activity {
                     convertView.setTag(holder);
                 }
                 else {
-                    holder = (ViewHolder)convertView;
+                    holder = (ViewHolder)convertView.getTag();
                 } 
             }
         }
