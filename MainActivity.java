@@ -144,6 +144,12 @@ public class MainActivity extends Activity {
             return position;
         }
             
-        //Add
+        @Override
+            public View getView(int position, View convertView, ViewGroup parent){//getview
+                
+            }
+        private class ViewHolder{
+        }
+                
 //Again.
 }
