@@ -146,7 +146,7 @@ public class MainActivity extends Activity {
             
         @Override
             public View getView(int position, View convertView, ViewGroup parent){//getview
-                
+                ViewHolder holder = null; //create ViewHolder
             }
         private class ViewHolder{
             TextView tvItemGridView;
