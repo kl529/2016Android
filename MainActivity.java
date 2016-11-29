@@ -144,30 +144,6 @@ public class MainActivity extends Activity {
             return position;
         }
             
-        @Override
-        public View getView(int position, View convertView, ViewGroup parent){
-            ViewHolder holder = null;
-            if (convertView == null){
-                convertView = inflater.inflate(R.layout.item_calender_gridview, parent, false);
-                holder = new ViewHolder();
-          
-                holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
-                convertView.setTag(holder);
-            } else {
-                holder = (ViewHolder)convertView.getTag();
-            }
-            holder.tvItemGridView.setText("" + getItem(position));
-            mCal = Calender.getInstance();
-            Integer today = mCal.get(Calendar.DAY_OF_MONTH);
-            String sToday = String.valueOf(today);
-            if (sToday.equals(getItem(position))) {
-                holder.tvItemGridView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
-            }
-            return convertView;
-        }
-    }
-    private class ViewHolder {
-        TextView tvItemGridView;
-    }
+        //Add
 //Again.
 }
