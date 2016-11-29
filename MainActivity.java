@@ -169,5 +169,5 @@ public class MainActivity extends Activity {
     private class ViewHolder {
         TextView tvItemGridView;
     }
-//Again.
+//finish
 }
