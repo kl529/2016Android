@@ -12,6 +12,7 @@ import java.text.SimpleDateFormat;
     import android.content.Context;
     import android.os.Bundle;
     import android.view.LayoutInflater;
+    //import!
     import android.view.View;
     import android.view.View.OnClickListener;
     import android.view.ViewGroup;
@@ -32,7 +33,7 @@ public class MainActivity extends Activity {
     //GridView
     private GridView gridView;
     //Calender variable
-    private Calender mCal;
+    private Calendar mCal;
     
     
 
@@ -144,6 +145,25 @@ public class MainActivity extends Activity {
             return position;
         }
             
-        //Add
+        @Override
+            public View getView(int position, View convertView, ViewGroup parent){//getview
+                ViewHolder holder = null; //create ViewHolder
+                if (convertView == null){
+                    convertView = inflater.inflate(R.layout.item_calendar_gridview, parent, false);
+                    holder = new ViewHolder();
+                    
+                    holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
+                    
+                    convertView.setTag(holder);
+                }
+                else {
+                    holder = (ViewHolder)convertView.getTag();
+                } 
+            }
+        }
+        private class ViewHolder{
+            TextView tvItemGridView;
+        }
+                
 //Again.
 }
