@@ -155,7 +155,8 @@ public class MainActivity extends Activity {
                     holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
                     
                     convertView.setTag(holder);
-                } else {
+                }
+                else {
                     holder;
                 } 
             }
