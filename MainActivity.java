@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
     //GridView
     private GridView gridView;
     //Calender variable
-    private Calender mCal;
+    private Calendar mCal;
     
     
 
