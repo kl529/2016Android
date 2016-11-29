@@ -149,6 +149,7 @@ public class MainActivity extends Activity {
                 ViewHolder holder = null; //create ViewHolder
                 if (convertView == null){
                     convertView = inflater.inflate(R.layout.item_calendar_gridview, parent, false);
+                    holder = new ViewHolder();
                 }
             }
         private class ViewHolder{
