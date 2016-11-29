@@ -63,6 +63,111 @@ public class MainActivity extends Activity {
         dayList.add("FRI");
         dayList.add("SAT");
         mCal = Calendar.getInstance();
-    }//-change first
-
+        
+        mCal.set(Integer.parseInt(nowYear.format(date), Integer.parseInt(nowMonth.format(date)) -1, Integer.parseInt(nowDay.format(date)));
+                 
+        int dayNum = mCal.get(Calendar.DAY_OF_WEEK);
+                 
+        for (int i; i <dayNum; i++)
+                 {
+                     dayList.add("");
+                 }
+        
+        setCalendarDate(mCal.get(Calendar.MONTH) + 1);
+                 
+        gridAdapter = new GridAdapter(getApplicationContext(), dayList);
+                 
+            
+        gridView.setAdapter(gridAdapter);
+               
+    }//-change first-I make new branch,and I change return.
+                 
+    private void setCalendarDate(int month)
+    {
+        int i;
+        mCal.set(Calendar.MONTH, month-1);
+       
+        for (i=0; i<mCal.getActualMaximum(Calendar.DAY_OF_MONTH); i++)
+        {
+            dayList.add("" + (i+1));
+        }
+        //------------------------
+        Date date = new Date();
+        date.setYear(year);
+        date.setMonth(month);
+        date.setDate(1);
+        firstDay = date.getDay();
+        
+        toDays = 31;
+        for (int i = 29; i<=32; i++)
+        {
+            date.setDate(i);
+            if (date.getDate() == 1)
+            {
+                totDays = i -1;
+                break;
+            }
+        }
+        
+    }
+    
+    private class GridAdapter extends BaseAdapter {
+        
+        private final List<String> list;
+        
+        private final Layoutlnflater inflater;
+        
+        public GridAdapter (Context context, List<String> list)
+        {
+            this.list = list;
+            
+            this.inflater = (Layoutlnflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        }
+        
+        @Override
+        public int getCount(){
+            return list.size();
+        }
+        
+        @Override
+        public void setCount(int c){
+            this.count = c;
+        }
+        
+        @Override
+        public String getItem(int position){
+            return list.get(position);
+        }
+            
+        @Override
+        public long getItemId(int position){
+            return position;
+        }
+            
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent){
+            ViewHolder holder = null;
+            if (convertView == null){
+                convertView = inflater.inflate(R.layout.item_calender_gridview, parent, false);
+                holder = new ViewHolder();
+          
+                holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
+                convertView.setTag(holder);
+            } else {
+                holder = (ViewHolder)convertView.getTag();
+            }
+            holder.tvItemGridView.setText("" + getItem(position));
+            mCal = Calender.getInstance();
+            Integer today = mCal.get(Calendar.DAY_OF_MONTH);
+            String sToday = String.valueOf(today);
+            if (sToday.equals(getItem(position))) {
+                holder.tvItemGridView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
+            }
+            return convertView;
+        }
+    }
+    private class ViewHolder {
+        TextView tvItemGridView;
+    }
+//Again.
 }
