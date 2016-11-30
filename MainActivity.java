@@ -12,7 +12,6 @@ import java.text.SimpleDateFormat;
     import android.content.Context;
     import android.os.Bundle;
     import android.view.LayoutInflater;
-    //import!
     import android.view.View;
     import android.view.View.OnClickListener;
     import android.view.ViewGroup;
@@ -69,7 +68,7 @@ public class MainActivity extends Activity {
                  
         int dayNum = mCal.get(Calendar.DAY_OF_WEEK);
                  
-        for (int i; i <dayNum; i++)
+        for (int i = 1; i <dayNum; i++)
                  {
                      dayList.add("");
                  }
@@ -116,13 +115,13 @@ public class MainActivity extends Activity {
         
         private final List<String> list;
         
-        private final Layoutlnflater inflater;
+        private final LayoutInflater inflater;
         
         public GridAdapter (Context context, List<String> list)
         {
             this.list = list;
             
-            this.inflater = (Layoutlnflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            this.inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         }
         
         @Override
