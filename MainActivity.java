@@ -68,7 +68,7 @@ public class MainActivity extends Activity {
                  
         int dayNum = mCal.get(Calendar.DAY_OF_WEEK);
                  
-        for (int i; i <dayNum; i++)
+        for (int i = 1; i <dayNum; i++)
                  {
                      dayList.add("");
                  }
