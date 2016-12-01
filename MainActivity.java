@@ -151,7 +151,7 @@ public class MainActivity extends Activity {
                     convertView = inflater.inflate(R.layout.activity_main, parent, false);
                     holder = new ViewHolder();
                     
-                    holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_Date);
+                    holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_date);
                     
                     convertView.setTag(holder);
                 }
