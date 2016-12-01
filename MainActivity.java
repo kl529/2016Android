@@ -163,6 +163,12 @@ public class MainActivity extends Activity {
                 mCal = Calendar.getInstance();
                 Integer today = mCal.get(Caledanr.DAY_OF_MONTH);
                 String sToday = String.valueOf(today);
+                
+                if(sToday.equals(getItem(position))){
+                    holder.tvItemGridView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
+                }
+                
+                return convertView;
             }
         }
         private class ViewHolder{
