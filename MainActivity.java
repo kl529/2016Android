@@ -157,7 +157,10 @@ public class MainActivity extends Activity {
                 }
                 else {
                     holder = (ViewHolder)convertView.getTag();
-                } 
+                }
+                
+                holder.tvItemGridView.setText("" + getItem(position));
+                mCal = Calendar.getInstance();
             }
         }
         private class ViewHolder{
