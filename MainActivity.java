@@ -161,6 +161,8 @@ public class MainActivity extends Activity {
                 
                 holder.tvItemGridView.setText("" + getItem(position));
                 mCal = Calendar.getInstance();
+                Integer today = mCal.get(Caledanr.DAY_OF_MONTH);
+                String sToday = String.valueOf(today);
             }
         }
         private class ViewHolder{
