@@ -148,7 +148,7 @@ public class MainActivity extends Activity {
             public View getView(int position, View convertView, ViewGroup parent){//getview
                 ViewHolder holder = null; //create ViewHolder
                 if (convertView == null){
-                    convertView = inflater.inflate(R.layout.activity_main.item, parent, false);
+                    convertView = inflater.inflate(R.layout.activity_main, parent, false);
                     holder = new ViewHolder();
                     
                     holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_date);
