@@ -33,8 +33,6 @@ public class MainActivity extends Activity {
     private GridView gridView;
     //Calender variable
     private Calendar mCal;
-    
-    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -100,7 +98,7 @@ public class MainActivity extends Activity {
         
         toDays = 31;
         for (int i = 29; i<=32; i++)
-        {
+        {    
             date.setDate(i);
             if (date.getDate() == 1)
             {
@@ -118,11 +116,11 @@ public class MainActivity extends Activity {
         private final LayoutInflater inflater;
         
         public GridAdapter (Context context, List<String> list)
-        {
+        {    
             this.list = list;
             
             this.inflater = (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        }
+        }     
         
         @Override
         public int getCount(){
