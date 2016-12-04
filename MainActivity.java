@@ -147,7 +147,7 @@ public class MainActivity extends Activity {
         @Override
             public View getView(int position, View convertView, ViewGroup parent){//getview
                 ViewHolder holder = null; //create ViewHolder
-                if (convertView == null){
+                if (convertView == null){              
                     convertView = inflater.inflate(R.layout.activity_main, parent, false);
                     holder = new ViewHolder();
                     
