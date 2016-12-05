@@ -73,7 +73,7 @@ public class MainActivity extends Activity {
                      dayList.add("");
                  }
         
-        setCalendarDate(mCal.get(Calendar.MONTH) + 1 + n);
+        setCalendarDate(mCal.get(Calendar.MONTH) + 1);
                  
         gridAdapter = new GridAdapter(getApplicationContext(), dayList);
                  
