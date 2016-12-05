@@ -17,5 +17,16 @@
         android:textColor="#000000"
         android:textSize="20sp"
         />
+    <GridView
+              
+        android:layout_marginTop = "10dp"
+        android:id = "@+id/gridview"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:numColumns="7"
+        android:listSelector="#b9ff02"
+        >
+    </GridView>
 
 </LinearLayout>
