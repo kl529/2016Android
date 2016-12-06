@@ -126,7 +126,7 @@ public class MainActivity extends Activity {
         public int getCount(){
             return list.size();
         }
-        
+             
         @Override
         public void setCount(int c){
             this.count = c;
