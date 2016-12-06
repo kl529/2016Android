@@ -75,7 +75,7 @@ public class MainActivity extends Activity {
                  
         gridAdapter = new GridAdapter(getApplicationContext(), dayList);
                  
-            
+           
         gridView.setAdapter(gridAdapter);
                
     }//-change first-I make new branch,and I change return.
@@ -148,7 +148,7 @@ public class MainActivity extends Activity {
                 if (convertView == null){              
                     convertView = inflater.inflate(R.layout.activity_main, parent, false);
                     holder = new ViewHolder();
-                    
+                   
                     holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_date);
                     
                     convertView.setTag(holder);
