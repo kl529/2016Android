@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:layout_width="match_parent"
         android:numColumns="7"
-        android:listSelector="#b9ff02"
+        android:listSelector="#b9ff01"
         >
     </GridView>
         
