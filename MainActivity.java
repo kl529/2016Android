@@ -20,7 +20,6 @@ import java.text.SimpleDateFormat;
     import android.widget.TextView;
 
 public class MainActivity extends Activity {
-
     private TextView tvDate;
     //    연,월 레이아웃 텍스트 뷰
     private TextView tvDate;
