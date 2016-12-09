@@ -19,7 +19,6 @@ import java.text.SimpleDateFormat;
     import android.widget.GridView;
     import android.widget.TextView;
 
-
 public class MainActivity extends Activity {
 
     private TextView tvDate;
