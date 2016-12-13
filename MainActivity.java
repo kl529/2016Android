@@ -29,7 +29,6 @@ public class MainActivity extends Activity {
     private GridView gridView;
     //Calender variable
     private Calendar mCal;
-
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
