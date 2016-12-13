@@ -1,13 +1,11 @@
 package com.example.kl529.calendar;
 
 import java.text.SimpleDateFormat;
-
     import java.util.ArrayList;
     import java.util.Calendar;
     import java.util.Date;
     import java.util.List;
     import java.util.Locale;
-
     import android.app.Activity;
     import android.content.Context;
     import android.os.Bundle;
@@ -19,9 +17,7 @@ import java.text.SimpleDateFormat;
     import android.widget.GridView;
     import android.widget.TextView;
 
-
 public class MainActivity extends Activity {
-
     private TextView tvDate;
     //    연,월 레이아웃 텍스트 뷰
     private TextView tvDate;
@@ -33,12 +29,12 @@ public class MainActivity extends Activity {
     private GridView gridView;
     //Calender variable
     private Calendar mCal;
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(android.R.layout.activity_main);
-
+        
         tvDate = (TextView)findViewById(android.R.id.tv_date);
         gridView = (GridView)findViewById(R.id.gridview);
         //Set today's month and days.
@@ -79,6 +75,7 @@ public class MainActivity extends Activity {
         gridView.setAdapter(gridAdapter);
                
     }//-change first-I make new branch,and I change return.
+                 
                  
     private void setCalendarDate(int month)
     {
