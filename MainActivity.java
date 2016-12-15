@@ -35,6 +35,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(android.R.layout.activity_main);
         
+       
         tvDate = (TextView)findViewById(android.R.id.tv_date);
         gridView = (GridView)findViewById(R.id.gridview);
         //Set today's month and days.
