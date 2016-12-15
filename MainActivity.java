@@ -5,7 +5,6 @@ import java.text.SimpleDateFormat;
     import java.util.Calendar;
     import java.util.Date;
     import java.util.List;
-    import java.util.Locale;
     import android.app.Activity;
     import android.content.Context;
     import android.os.Bundle;
