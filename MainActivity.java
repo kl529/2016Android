@@ -2,7 +2,6 @@ package com.example.kl529.calendar;
 
 import java.text.SimpleDateFormat;
     import java.util.ArrayList;
-    import java.util.Calendar;
     import android.app.Activity;
     import android.content.Context;
     import android.os.Bundle;
