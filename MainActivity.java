@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-    import android.widget.GridView;
+import android.widget.GridView;
     import android.widget.TextView;
 
 public class MainActivity extends Activity {
