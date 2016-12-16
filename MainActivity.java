@@ -162,6 +162,7 @@ public class MainActivity extends Activity {
 //Again.
 }
 
+                 holder.tvItemGridView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
                 
                  
                  
