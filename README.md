@@ -5,7 +5,8 @@
 
 The aim of this project is a Calendar app for Android.
 
-We are making a multi-purpose app made for organizing schedules, and also including an account book feature for financial purposes.
+We are making a multi-purpose app made for organizing schedules, and also   
+including an account book feature for financial purposes.
 
 ### Description
 
@@ -24,7 +25,8 @@ We are making a multi-purpose app made for organizing schedules, and also includ
 
 ### Background
 
-For this Android application school project, we used Java which is widely used by people all around the world for creating applications
+For this Android application school project, we used Java which is widely    
+used by people all around the world for creating applications
 (We are taking a Java course this semester). 
 
 ### Contributors
