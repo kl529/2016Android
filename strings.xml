@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="Next_month">Next_month</string>
+    <string name="Last_month">Last_month</string>
+    <string name="This_month">This_month</string>
+</resources>
