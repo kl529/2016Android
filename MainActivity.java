@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(android.R.layout.activity_main);
-        
+       
         tvDate = (TextView)findViewById(android.R.id.tv_date);
         gridView = (GridView)findViewById(R.id.gridview);
         //Set today's month and days.
@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         final SimpleDateFormat nowYear = new SimpleDateFormat("yyyy",Locale.KOREA);
         final SimpleDateFormat nowMonth = new SimpleDateFormat("MM",Locale.KOREA);
         final SimpleDateFormat nowDay = new SimpleDateFormat("DD",Locale.KOREA);
-        
+      
         tvDate.setText(nowYear.format(date) + "." + nowMonth.format(date));
         //gridview what day?
         dayList = new ArrayList<String>();
@@ -139,10 +139,10 @@ public class MainActivity extends Activity {
             public View getView(int position, View convertView, ViewGroup parent){//getview
                 ViewHolder holder = null; //create ViewHolder
                 if (convertView == null){              
-                    convertView = inflater.inflate(R.layout.activity_main, parent, false);
+                    convertView = inflater.inflate(R.layout.item_calendar_gridview, parent, false);
                     holder = new ViewHolder();
                    
-                    holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_date);
+                    holder.tvItemGridView = (TextView)convertView.findViewById(R.id.tv_item_gridview);
                     
                     convertView.setTag(holder);
                 }
@@ -168,3 +168,163 @@ public class MainActivity extends Activity {
                 
 //debugging..
 }
+
+                 holder.tvItemGridView.setTextColor(getResources().getColor(R.color.colorPrimaryDark));
+                
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
