@@ -43,4 +43,4 @@ used by people all around the world for creating applications
 * Java
 
 ### Screenshots
-![ ](https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161217_192648018.png)
+![ ](https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161217_192648018.png =100x25)
