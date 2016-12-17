@@ -9,10 +9,18 @@ We are making a multi-purpose app made for organizing schedules, and also includ
 
 ### Description
 
-Our calendar will show this month, and you can choose to go to the next month or go back to the month before. each date will be set as a button, which you can press to put in information about how much money you spent that day. Also, an optional feature would be a window at the bottom of the screen to show the average amount of money spent on an everyday basis and show the total amout of money spent that month. we will also color and make sure that the layout is pleasing to see.
+1. Basic layout
+    * You can view today's date right after you open the application.
+    * A monthly calendar showing this month is located below today's date.
+    * The panel that shows "today" will be highlighted in a different color.
+2. Goals
+    * We focused on making sure that people using this calendar would    
+    be able to easily check today's dates and stay organized.
 
-a. project
-    1. we will...
+### Background
+
+For this Android application school project, we used Java which is widely used by people all around the world for creating applications
+(We are taking a Java course this semester). 
 
 ### Contributors
 
