@@ -16,11 +16,11 @@ We are making a multi-purpose app made for organizing schedules, and also includ
 2. Goals
     - [x] We focused on making sure that people using this calendar would    
     be able to easily check today's dates and stay organized.
-    - [] Make and account book feature, so that users can keep track of money    
+    - [ ] Make and account book feature, so that users can keep track of money    
     not only for that day, but for that month.
-    - [] Work on graphics, design to the level of applications in app stores 
+    - [ ] Work on graphics, design to the level of applications in app stores 
     today.
-    - [] Recieve feedback and fix anything we need to fix
+    - [ ] Recieve feedback and fix anything we need to fix
 
 ### Background
 
