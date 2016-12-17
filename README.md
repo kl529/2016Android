@@ -38,6 +38,6 @@ For this Android application school project, we used Java which is widely used b
 [GPL-3.0] (https://www.gnu.org/licenses/gpl-3.0.fr.html)
 
 ### Language   
-- java
+*Java
 
 ### Screenshots
