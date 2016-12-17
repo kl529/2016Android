@@ -14,8 +14,13 @@ We are making a multi-purpose app made for organizing schedules, and also includ
     * A monthly calendar showing this month is located below today's date.
     * The panel that shows "today" will be highlighted in a different color.
 2. Goals
-    * We focused on making sure that people using this calendar would    
+    - [x] We focused on making sure that people using this calendar would    
     be able to easily check today's dates and stay organized.
+    - [] Make and account book feature, so that users can keep track of money    
+    not only for that day, but for that month.
+    - [] Work on graphics, design to the level of applications in app stores 
+    today.
+    - [] Recieve feedback and fix anything we need to fix
 
 ### Background
 
