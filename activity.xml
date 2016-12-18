@@ -21,6 +21,7 @@
             android:layout_height="fill_parent"
             android:text="PRE"
             android:id="@+id/pre"
+            android:layout_weight="0.16"
                 />
         
         <TextView
