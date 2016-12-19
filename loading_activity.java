@@ -11,6 +11,10 @@ public class LoadingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_loading);
       
         Handler hd = new Handler(){
+          public void handleMessage(Message msg){
+              finish();
+          }
+        };
 
 
     }
