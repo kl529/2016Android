@@ -15,7 +15,7 @@ public class LoadingActivity extends AppCompatActivity {
               finish();
           }
         };
-
+        hd.sendEmptyMessageDelayed(0,3000);
 
     }
 }
