@@ -35,9 +35,15 @@ used by people all around the world for creating applications
 * [Tcity765] (https://github.com/Tcity765)
 * [kimhyebeen] (https://github.com/kimhyebeen)
 
+### Goals
+
+* 
+
 ### Licence
 
-[GPL-3.0] (https://www.gnu.org/licenses/gpl-3.0.fr.html)
+[GPL-3.0] (https://www.gnu.org/licenses/gpl-3.0.fr.html
+GPL-3.0 is the most widely used license by Opensource softwares today. It is   
+stricter than most licenses.
 
 ### Language   
 * Java
