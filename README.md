@@ -46,7 +46,7 @@ GPL-3.0 is the most widely used license by Opensource softwares today.
 It is stricter than most licenses.
 
 ### Language   
-* Java
+# Java
 * Java programs can be run on any platform.
 * Java programs can be transferred over world wide web (e.g applets)
 
