@@ -64,4 +64,4 @@ It is stricter than most licenses.
 
 Plans
 =====================================
-Our plans for this week (December 21 ~):
+(December 21 ~):
