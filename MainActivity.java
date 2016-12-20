@@ -1,15 +1,19 @@
 /** 
+ * MainActivity
+ * 
  * ***********************
  * Describe Implementation
  * ***********************
  * 
  * @author kimhyebeen
  * ==================
- * @author kl529
+ * @contributor kl529
  * =============
- * @author Tcity765
+ * @contributor Tcity765
  * ================
  * 
+ * @version 1.0  
+ *  
  * a) With TextView, LinearLayout shows the current year, which is shown on the screen.
  * b) The background color and overall layout of the calendar is shown with TextView.
  * c) Using GridView, the calendar gets a grid, and every space is used to show each day.
