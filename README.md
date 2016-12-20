@@ -35,10 +35,6 @@ we used Java which is widely used by people all around the world for creating ap
 * [Tcity765] (https://github.com/Tcity765)
 * [kimhyebeen] (https://github.com/kimhyebeen)
 
-### Goals
-
-* 
-
 ### Licence
 
 ####[GPL-3.0]
@@ -62,3 +58,6 @@ It is stricter than most licenses.
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928437.png" width="200" height="350" />
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161217_192648018.png" width="200" height="350" />
 
+Plans
+=====================================
+Our plans for this week (November 16 ~ November 23):
