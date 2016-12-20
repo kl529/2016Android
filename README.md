@@ -65,3 +65,4 @@ It is stricter than most licenses.
 Plans
 =====================================
 (December 21 ~):
+We will add features such as leaving income and expense records,
