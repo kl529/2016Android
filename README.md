@@ -9,8 +9,8 @@
 
 The aim of this project is a Calendar app for Android.
 
-We are making a multi-purpose app made for organizing schedules, and also   
-including an account book feature for financial purposes.
+We are making a multi-purpose app made for organizing schedules,  
+and also including an account book feature for financial purposes.
 
 ## Description
 
@@ -29,9 +29,9 @@ including an account book feature for financial purposes.
 
 ## Background
 
-For this Android application school project,
-we used Java which is widely used by people all around the world for creating applications
-(We are taking a Java course this semester). 
+For this Android application school project,  
+we used Java which is widely used by people all around the world for creating applications  
+(We are taking a Java course this semester).   
 
 ## Contributors
 
@@ -42,9 +42,9 @@ we used Java which is widely used by people all around the world for creating ap
 ## Licence
 
 ####[GPL-3.0]
-####For a detailed description of the GPL-3.0 :  (https://www.gnu.org/licenses/gpl-3.0.fr.html)
-GPL-3.0 is the most widely used license by Opensource softwares today.
-It is stricter than most licenses.
+####For a detailed description of the GPL-3.0 :  (https://www.gnu.org/licenses/gpl-3.0.fr.html)  
+GPL-3.0 is the most widely used license by Opensource softwares today.  
+It is stricter than most licenses.  
 
 ## Language   
 ### Java
@@ -66,6 +66,6 @@ Plans
 =====================================
 (December 21 ~):
 
-We will add features such as leaving income and expense records,
-and displaying the amount of money spent per month.
-And we plan to work on the design as well.
+We will add features such as leaving income and expense records,  
+and displaying the amount of money spent per month.  
+And we plan to work on the design as well.  
