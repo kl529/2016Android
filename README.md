@@ -41,7 +41,7 @@ we used Java which is widely used by people all around the world for creating ap
 
 ### Licence
 
-[GPL-3.0] (https://www.gnu.org/licenses/gpl-3.0.fr.html
+[GPL-3.0] (https://www.gnu.org/licenses/gpl-3.0.fr.html)\n
 GPL-3.0 is the most widely used license by Opensource softwares today.
 It is stricter than most licenses.
 
