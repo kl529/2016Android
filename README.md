@@ -63,3 +63,5 @@ It is stricter than most licenses.
 Plans
 =====================================
 Our plans for this week (November 16 ~ November 23):
+
+First, we finalized the topic of our subject.
