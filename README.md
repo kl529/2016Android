@@ -55,10 +55,8 @@ It is stricter than most licenses.
 * Java encourages error-free programming by being strictly typed and performing run-time checks.
 
 ### Screenshots
-##### Loading_screens
+##### Loading_screens,           Screen_running_1,           Screen_running_2
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928025.png" width="200" height="350" />
-#### Screen_running_1
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928437.png" width="200" height="350" />
-#### Screen_running_2
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161217_192648018.png" width="200" height="350" />
 
