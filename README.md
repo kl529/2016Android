@@ -25,8 +25,8 @@ including an account book feature for financial purposes.
 
 ### Background
 
-For this Android application school project, we used Java which is widely    
-used by people all around the world for creating applications
+For this Android application school project,
+we used Java which is widely used by people all around the world for creating applications
 (We are taking a Java course this semester). 
 
 ### Contributors
