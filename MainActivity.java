@@ -10,6 +10,8 @@
  * @author 이승현
  * ============
  * 
+ * a) With TextView, LinearLayout shows the current year, which is shown on the screen.
+ * 
  */  
 
 package com.example.kl529.calendar;
