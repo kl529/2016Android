@@ -1,9 +1,4 @@
-/**
-========
-* Describe
-* @Deskcribe
-========
-*/
+
 
 package com.example.kl529.calendar;
 
