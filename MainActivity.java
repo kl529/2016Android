@@ -11,6 +11,7 @@
  * ============
  * 
  * a) With TextView, LinearLayout shows the current year, which is shown on the screen.
+ * b) The background color and overall layout of the calendar is shown with TextView.
  * 
  */  
 
