@@ -13,7 +13,7 @@
  * a) With TextView, LinearLayout shows the current year, which is shown on the screen.
  * b) The background color and overall layout of the calendar is shown with TextView.
  * c) Using GridView, the calendar gets a grid, and every space is used to show each day.
- *    A label in the top shows 
+ *    A label in the top shows what day it is (For example, Wednesday or Saturday)
  * 
  */  
 
