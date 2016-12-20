@@ -20,11 +20,11 @@ and also including an account book feature for financial purposes.
     * The panel that shows "today" will be highlighted in a different color.
 2. Goals
     - [x] We focused on making sure that people using this calendar would    
-    be able to easily check today's dates and stay organized.
+          be able to easily check today's dates and stay organized.
     - [ ] Make and account book feature, so that users can keep track of money    
-    not only for that day, but for that month.
+          not only for that day, but for that month.
     - [ ] Work on graphics, design to the level of applications in app stores 
-    today.
+          today.
     - [ ] Recieve feedback and fix anything we need to fix
 
 ## Background
