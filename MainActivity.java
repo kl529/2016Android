@@ -14,6 +14,7 @@
  * b) The background color and overall layout of the calendar is shown with TextView.
  * c) Using GridView, the calendar gets a grid, and every space is used to show each day.
  *    A label in the top shows what day it is (For example, Wednesday or Saturday) and using a java class,
+ *    the numbers are placed in the grid according to this month's calendar.
  * 
  */  
 
