@@ -3,12 +3,12 @@
  * Describe Implementation
  * ***********************
  * 
- * @author 김혜빈
- * ============
- * @author 김지원
- * ============
- * @author 이승현
- * ============
+ * @author kimhyebeen
+ * ==================
+ * @author kl529
+ * =============
+ * @author Tcity765
+ * ================
  * 
  * a) With TextView, LinearLayout shows the current year, which is shown on the screen.
  * b) The background color and overall layout of the calendar is shown with TextView.
