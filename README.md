@@ -49,6 +49,7 @@ It is stricter than most licenses.
 #### Java
 * Java programs can be run on any platform.
 * Java programming is object-oriented programming language.
+* Java is not tied to a specific machine or operating system architecture.
 * Java programs can be transferred over world wide web (e.g applets)
 * Java encourages error-free programming by being strictly typed and performing run-time checks.
 
