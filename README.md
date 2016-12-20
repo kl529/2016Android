@@ -47,7 +47,8 @@ It is stricter than most licenses.
 
 ### Language   
 * Java
-- Java programs can be run on any platform.
+* Java programs can be run on any platform.
+* Java programs can be transferred over world wide web (e.g applets)
 
 ### Screenshots
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928025.png" width="200" height="350" />
