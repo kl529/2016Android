@@ -17,6 +17,7 @@
  *    the numbers are placed in the grid according to this month's calendar.
  *    (If January 1st is a Saturday, then the 1 is placed directly below the day, and so on.)
  * d) Also, we made the space that shows today's date special, by using a different color.
+ *    That makes it easier to notice today's date.
  * 
  */  
 
