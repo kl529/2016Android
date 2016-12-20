@@ -16,7 +16,7 @@
  *    A label in the top shows what day it is (For example, Wednesday or Saturday) and using a java class,
  *    the numbers are placed in the grid according to this month's calendar.
  *    (If January 1st is a Saturday, then the 1 is placed directly below the day, and so on.)
- * d) Also, we made the space
+ * d) Also, we made the space that shows today's date special,
  * 
  */  
 
