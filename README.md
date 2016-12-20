@@ -67,6 +67,5 @@ Plans
 (December 21 ~):
 
 We will add features such as leaving income and expense records,
-
 and displaying the amount of money spent per month.
 And we plan to work on the design as well.
