@@ -56,5 +56,6 @@ It is stricter than most licenses.
 
 ### Screenshots
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928025.png" width="200" height="350" />
+Loading screens
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161214_155928437.png" width="200" height="350" />
 <img src="https://github.com/kl529/KarBcity/blob/master/KakaoTalk_20161217_192648018.png" width="200" height="350" />
